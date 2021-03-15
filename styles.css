@@ -1,3 +1,17 @@
-p {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #242526;
+  font-family: 'Roboto', sans-serif;  
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  
+}
+
+.content {
+  background: #3A3B3C;
 }
