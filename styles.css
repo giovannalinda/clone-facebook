@@ -19,3 +19,13 @@ body {
   top: 0%;
   width: 98rem;
 }
+
+.content ul li img {
+  margin-top: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+div.side input {
+  
+}
