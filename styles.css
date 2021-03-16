@@ -18,10 +18,10 @@ body {
   position: fixed;
   top: 0%;
   width: 98rem;
-  box-shadow: 0 1px 4px  #fff;
+  box-shadow: 0 0 1px  #fff;
 }
 
-.content ul li img {
+.content img {
   margin-top: 5px;
   padding: 5px;
   margin: 5px;
@@ -29,18 +29,18 @@ body {
 
 div.side input {
   position: absolute;
-  background: #242526;
   border: #242526;
   color: #95979A;
-  border-radius: 20px;
+  border-radius: 28px;
   outline: none;
   text-align: center;
   margin: 5px;
   padding: 0 30px 0 12px;
   width: 270px;
-  height: 49px;
-  left: 70px;
+  height: 45px;
+  left: 60px;
   top: 5px;
+  background: url("./images/search.svg") no-repeat 15px center  #242526;;
    
 }
 
@@ -48,4 +48,21 @@ div.side img {
   margin-top: 0;
   padding: 5px;
   margin: 5px;
+
 }
+
+header#main-header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header nav ul li  {
+  position: relative;
+
+}
+
+div.banner  {
+
+
+}
+
