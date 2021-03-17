@@ -52,12 +52,43 @@ div.side img {
 }
 
 header#main-header nav ul {
-  display: flex;
   list-style: none;
 }
 
-header#main-header nav ul li  {
+header#main-header .content nav ul li {
   position: relative;
+}
+
+div.side img {
+  position: absolute;
+  width: 46px;
+  height: 45px;
+  left: 1200px;
+  top: 5px;
+}
+
+div.side p {
+  position: absolute;
+  width: 20px;
+  height: 45px;
+  left: 1258px;
+  top: 25px;
+  color: #0A65DC;
+}
+
+div.images-nav ul li {
+  list-style: none;
+  display: flex;
+
+}
+
+div.images-nav ul li img {
+  position: absolute;
+  width: 20px;
+  height: 45px;
+  left: 1370px;
+  top: 10px;
+  padding: 1px;
 
 }
 
