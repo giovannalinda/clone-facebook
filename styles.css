@@ -14,11 +14,11 @@ body {
 
 .content {
   position: fixed;
-  background: #3A3B3C;
+  background: #242526;
   position: fixed;
   top: 0%;
   width: 98rem;
-  box-shadow: 0 0 1px  #fff;
+  box-shadow: 0 0.3px 2px #000;
 }
 
 .content img {
@@ -40,7 +40,7 @@ div.side input {
   height: 45px;
   left: 60px;
   top: 5px;
-  background: url("./images/search.svg") no-repeat 15px center  #242526;;
+  background: url("./images/search.svg") no-repeat 15px center  #3a3b3c;;
    
 }
 
@@ -55,9 +55,10 @@ header#main-header {
   display: flex;
   align-items: center;
   height: 46px;
+  position: fixed;
 }
 
-header#main-header nav ul {
+header#main-header .content nav ul {
   list-style: none;
   display: flex;
 }
@@ -66,9 +67,10 @@ header#main-header .content nav ul li {
   position:relative;
   display:flex;
   justify-content: center;
-  left: 350px;
+  left: 460px;
   width: 150px;
   height: 45px;
+  margin-top: -55px;
 }
 
 div.side img {
@@ -109,3 +111,39 @@ div.images-nav ul li img {
   margin: 10px;
 
 }
+
+div.banner {
+  display: flex;
+  background: #000;
+  height: 400px;
+  width: 60%;
+  margin-left: 290px;
+  margin-top: 2px;
+  border-radius: 6px;
+}
+
+div.profile .avatar {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 690px;
+  top: 250px;
+  border: 5px solid #242526;
+  border-radius: 50%;
+}
+
+div.profile h1 {
+  display: flex;
+  justify-content: center;
+  color: #e3e5ea;
+  margin-top: 40px;
+
+}
+
+div.profile p {
+  display: flex;
+  justify-content: center;
+  color: #95979A;
+  margin-top: 15px;
+}
+
