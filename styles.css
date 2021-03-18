@@ -51,12 +51,25 @@ div.side img {
 
 }
 
+header#main-header {
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+
 header#main-header nav ul {
   list-style: none;
+  display: flex;
 }
 
 header#main-header .content nav ul li {
-  position: relative;
+  position:relative;
+  display:flex;
+  justify-content: center;
+  left: 350px;
+  width: 150px;
+  height: 45px;
+  top: ;
 }
 
 div.side img {
@@ -82,18 +95,18 @@ div.images-nav ul li {
 
 }
 
+div.images-nav ul {
+  display: flex;
+  list-style: none;
+}
+
 div.images-nav ul li img {
-  position: absolute;
-  width: 20px;
-  height: 45px;
-  left: 1370px;
-  top: 10px;
-  padding: 1px;
+  position: relative;
+  display: flex;
+  width: 18px;
+  height: 29px;
+  left: 1350px;
+  top: 11px;
+  margin: 10px;
 
 }
-
-div.banner  {
-
-
-}
-
