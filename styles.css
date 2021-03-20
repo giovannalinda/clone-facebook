@@ -17,7 +17,8 @@ body {
   background: #242526;
   position: fixed;
   top: 0%;
-  width: 98rem;
+  width: 95rem;
+  height: 4rem;
   box-shadow: 0 0.3px 1px #95979A;
 }
 
@@ -261,6 +262,18 @@ div.timeline .status {
   height: 35px;
   margin-left: 65px;
   margin-top: -40px;
+
+}
+
+div.timeline-icon img {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  width: 18px;
+  height: 29px;
+  left: 1350px;
+  top: 11px;
+  margin: 10px;
 
 }
 
