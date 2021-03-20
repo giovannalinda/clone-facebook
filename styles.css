@@ -231,7 +231,7 @@ div.side img {
 div.timeline {
   background: #242526;
   width: 400px;
-  height: 200px;
+  height: 150px;
   margin-top: -400px;
   margin-left: 830px;
   border-radius: 10px;
@@ -265,17 +265,29 @@ div.timeline .status {
 
 }
 
-div.timeline-icon img {
-  position: relative;
+div.timeline-icon ul {
   display: flex;
-  align-items: flex-start;
-  width: 18px;
-  height: 29px;
-  left: 1350px;
-  top: 11px;
-  margin: 10px;
-
 }
+
+div.timeline-icon ul li {
+  display: flex;
+  list-style: none;
+  color: #95979A;
+}
+  
+  div.timeline-icon ul li img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    left: 980px;
+    
+  }
+
+  div.timeline-icon ul li img {
+    margin-right: 8px;
+  }
 
 
 
