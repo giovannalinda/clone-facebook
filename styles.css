@@ -18,7 +18,7 @@ body {
   position: fixed;
   top: 0%;
   width: 95rem;
-  height: 4rem;
+  height: 3.5rem;
   box-shadow: 0 0.3px 1px #95979A;
 }
 
@@ -26,6 +26,8 @@ body {
   margin-top: 5px;
   padding: 5px;
   margin: 5px;
+  height: 3rem;
+  width: 3rem;
 }
 
 div.side-nav input {
@@ -34,11 +36,11 @@ div.side-nav input {
   color: #e3e5ea;
   border-radius: 28px;
   outline: none;
-  text-align: center;
+  text-align:start;
   margin: 5px;
   padding: 0 16px 0 48px;
   width: 270px;
-  height: 45px;
+  height: 35px;
   left: 60px;
   top: 5px;
   background: url("./images/search.svg") no-repeat 15px center  #3a3b3c;
@@ -71,9 +73,9 @@ header#main-header .content nav ul li {
   display:flex;
   justify-content: center;
   left: 460px;
-  width: 150px;
+  width: 140px;
   height: 45px;
-  margin-top: -55px;
+  margin-top: -65px;
 }
 
 div.side-nav img {
@@ -81,7 +83,7 @@ div.side-nav img {
   width: 46px;
   height: 45px;
   left: 1200px;
-  top: 5px;
+  top: -2px;
 }
 
 div.side-nav p {
@@ -89,7 +91,7 @@ div.side-nav p {
   width: 20px;
   height: 45px;
   left: 1258px;
-  top: 25px;
+  top: 18px;
   color: #0A65DC;
 }
 
@@ -110,7 +112,7 @@ div.images-nav ul li img {
   width: 18px;
   height: 29px;
   left: 1350px;
-  top: 11px;
+  top: 5px;
   margin: 10px;
 
 }
