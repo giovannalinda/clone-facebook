@@ -30,10 +30,6 @@ body {
   width: 3rem;
 }
 
-header#main-header .content .logo {
-  
-}
-
 div.side-nav input {
   position: absolute;
   border: #242526;
@@ -48,7 +44,8 @@ div.side-nav input {
   left: 60px;
   top: 5px;
   background: url("./images/search.svg") no-repeat 15px center  #3a3b3c;
-   
+  font-size: 14px; 
+
 }
 
 header#main-header {
@@ -185,10 +182,12 @@ div.bar .content-bar ul li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 15px;
+  padding: 5px 15px 20px;
   position: relative;
-  color: #e3e5ea;
   left: -70px;
+  color: #95979A;
+  font-size: 15px;
+
 }
 
 div.bar .content-bar ul li strong {
@@ -203,12 +202,13 @@ div.bar .content-bar ul li strong {
 div.profile-content {
   background:#242526;
 }
+
 div.side {
   background: #242526;
-  width: 400px;
-  height: 400px;
-  margin-top: 24px;
-  margin-left: 415px;
+  width: 360px;
+  height: 300px;
+  margin-top: 15px;
+  margin-left: 320px;
   border-radius: 10px;
 }
 
@@ -224,21 +224,28 @@ div.side h2 {
 }
 
 div.side ul li {
- color: #95979A;
- margin-top: 20px;
- margin-left: 90px;
+  position: relative;
+  color: #e3e5ea;
+  margin-top: -10px;
+  margin-left: 50px;
+  padding: 20px;
 }
 
-div.side img {
-  margin-left: 30px;
+div.side li img {
+  position: relative;
+  display: flex;
+  margin-left: -40px;
+  width: 20px;
+  height: 25px;
+  margin-top: -20px;
 }
 
 div.timeline {
   background: #242526;
-  width: 400px;
+  width: 500px;
   height: 150px;
-  margin-top: -400px;
-  margin-left: 830px;
+  margin-top: -300px;
+  margin-left: 700px;
   border-radius: 10px;
 }
 
@@ -265,14 +272,15 @@ div.timeline input {
   text-align: row;
   margin: 5px;
   padding: 10px 15px 9px 20px;
-  width: 300px;
-  height: 35px;
-  margin-left: 65px;
-  margin-top: -40px;
+  width: 400px;
+  height: 43px;
+  margin-left: 60px;
+  margin-top: -45px;
   outline: none;
   text-align:start;
   border: none;
   color: #e3e5ea;
+  font-size: 17px;
 
 }
 
@@ -288,13 +296,13 @@ div.timeline-icon ul li {
   
   div.timeline-icon ul li {
     position: relative;
-    justify-content: space-between;
     display: flex;
     width: 6px;
     height: 18px;
-    left: 800px;
+    left: 670px;
     top: -100px;
     margin: 53px;
+    padding: 0 15px;
     
   }
 
@@ -305,10 +313,19 @@ div.timeline-icon ul li {
   div.division-status {
     display: flex;
     border-bottom: 1px solid #95979A;
-    width: 345px;
+    width: 450px;
     margin-top: 25px;
     margin-left: 15px; 
     opacity: 0.3;
+  }
+
+  div.timeline-photos {
+    background: #242526;
+    width: 360px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 320px;
+    border-radius: 10px;
   }
 
 
