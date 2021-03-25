@@ -307,7 +307,7 @@ div.timeline-icon ul li {
   }
 
   div.timeline-icon ul li img {
-    margin-right: 8px;
+    margin-right: 9px;
   }
 
   div.division-status {
@@ -322,7 +322,7 @@ div.timeline-icon ul li {
   div.timeline-photos {
     background: #242526;
     width: 360px;
-    height: 400px;
+    height: 415px;
     margin-top: 40px;
     margin-left: 320px;
     border-radius: 10px;
@@ -348,7 +348,7 @@ div.timeline-icon ul li {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
   }
 
   div.timeline-photos ul li  {
@@ -359,6 +359,75 @@ div.timeline-icon ul li {
     flex: 1 0 auto;
     margin: 0 5px 5px 0;
    
+  }
+
+  div.timeline-friends {
+    background: #242526;
+    width: 360px;
+    height: 510px;
+    margin-top: 20px;
+    margin-left: 320px;
+    border-radius: 10px;
+  }
+
+  div.timeline-friends h3 {
+    color: #e3e5ea;
+    padding: 20px;
+    margin-left: 5px;
+  }
+
+  div.timeline-friends p {
+    color: #95979A;
+    margin-left: 25px;
+    margin-top: -10px;
+    font-size: 15px;
+  }
+
+  div.timeline-friends strong {
+    color: #0A65DC;
+    position: relative;
+    width: 6px;
+    height: 18px;
+    left: 130px;
+    top: -40px;
+    margin: 53px;
+  }
+
+  div.timeline-friends ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px 0 15px;
+  }
+
+  div.timeline-friends ul li  {
+    width: 100px;
+    height: 100px;
+    background: #95979A;
+    border-radius: 6px;
+    flex: 1 0 auto;
+    margin: 0 10px 40px 0;
+   
+  }
+
+  div.timeline-friends ul li img {
+    width: 100px;
+    height: 100px;
+    background: #95979A;
+    border-radius: 6px;
+    flex: 1 0 auto;
+    margin: 0 10px 10px 0;
+   
+  }
+
+  div.timeline-friends ul li p {
+    font-size: 12px;
+    position: absolute;
+    color: #e3e5ea;
+    margin-top: -25px;
+    margin-left: -15px;
+    padding: 20px;
+    
   }
 
 
