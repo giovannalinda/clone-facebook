@@ -157,12 +157,13 @@ div.profile p {
 
 div.division {
   display: flex;
-  border-bottom: 3px solid #28292a;
+  border-bottom: 1px solid #95979A;
   padding-bottom: 15px;
   margin-bottom: 15px;
-  width: 50%;
+  width: 58%;
   margin-top: 5px;
-  margin-left: 370px;
+  margin-left: 320px;
+  opacity: 0.3;
 }
 
 div.bar .content-bar {
@@ -187,6 +188,7 @@ div.bar .content-bar ul li {
   padding: 0 15px;
   position: relative;
   color: #e3e5ea;
+  left: -70px;
 }
 
 div.bar .content-bar ul li strong {
@@ -255,16 +257,22 @@ div.timeline p {
   border-radius: 10px;
 }
 
-div.timeline .status {
+div.timeline input {
+  position: absolute;
   background: #3a3b3c;
-  border-radius: 50px;
+  border-radius: 40px;
+  display: flex;
   text-align: row;
   margin: 5px;
-  padding: 9px 1px 0 29px;
+  padding: 10px 15px 9px 20px;
   width: 300px;
   height: 35px;
   margin-left: 65px;
   margin-top: -40px;
+  outline: none;
+  text-align:start;
+  border: none;
+  color: #e3e5ea;
 
 }
 
@@ -294,12 +302,13 @@ div.timeline-icon ul li {
     margin-right: 8px;
   }
 
-  div.card-status {
+  div.division-status {
     display: flex;
-    border-bottom: 3px solid #28292a;
+    border-bottom: 1px solid #95979A;
     width: 345px;
     margin-top: 25px;
     margin-left: 15px; 
+    opacity: 0.3;
   }
 
 
