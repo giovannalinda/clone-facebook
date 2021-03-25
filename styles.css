@@ -30,6 +30,10 @@ body {
   width: 3rem;
 }
 
+header#main-header .content .logo {
+  
+}
+
 div.side-nav input {
   position: absolute;
   border: #242526;
@@ -47,14 +51,6 @@ div.side-nav input {
    
 }
 
-div.side-nav img {
-  margin-top: 0;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 50%;
-
-}
-
 header#main-header {
   display: flex;
   align-items: center;
@@ -68,14 +64,15 @@ header#main-header .content nav ul {
   display: flex;
 }
 
-header#main-header .content nav ul li {
-  position:relative;
-  display:flex;
-  justify-content: center;
-  left: 460px;
-  width: 140px;
-  height: 45px;
-  margin-top: -65px;
+header#main-header .content nav ul li img {
+  position: relative;
+  display: flex;
+  width: 50px;
+  height: 34px;
+  left: 470px;
+  top: -99px;
+  margin: 50px;
+
 }
 
 div.side-nav img {
@@ -84,6 +81,10 @@ div.side-nav img {
   height: 45px;
   left: 1200px;
   top: -2px;
+  margin-top: 0;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
 }
 
 div.side-nav p {
@@ -281,6 +282,7 @@ div.timeline-icon ul li {
     position: relative;
     display: flex;
     align-items: center;
+    top: -50px;
     width: 20px;
     height: 20px;
     left: 980px;
