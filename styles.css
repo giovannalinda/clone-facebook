@@ -322,10 +322,43 @@ div.timeline-icon ul li {
   div.timeline-photos {
     background: #242526;
     width: 360px;
-    height: 300px;
+    height: 400px;
     margin-top: 40px;
     margin-left: 320px;
     border-radius: 10px;
+  }
+
+  div.timeline-photos h3 {
+    color: #e3e5ea;
+    padding: 20px;
+    margin-left: 5px;
+  }
+
+  div.timeline-photos strong {
+    color: #0A65DC;
+    position: relative;
+    width: 6px;
+    height: 18px;
+    left: 130px;
+    top: -40px;
+    margin: 53px;
+  }
+
+  div.timeline-photos ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+
+  div.timeline-photos ul li  {
+    width: 100px;
+    height: 100px;
+    background: #95979A;
+    border-radius: 2px;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;
+   
   }
 
 
