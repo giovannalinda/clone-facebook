@@ -365,7 +365,7 @@ div.timeline-icon ul li {
     background: #242526;
     width: 360px;
     height: 510px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 320px;
     border-radius: 10px;
   }
@@ -373,24 +373,22 @@ div.timeline-icon ul li {
   div.timeline-friends h3 {
     color: #e3e5ea;
     padding: 20px;
-    margin-left: 5px;
   }
 
   div.timeline-friends p {
     color: #95979A;
-    margin-left: 25px;
-    margin-top: -10px;
+    margin-left: 10px;
+    margin-top: -15px;
     font-size: 15px;
+    padding: 9px;
   }
 
   div.timeline-friends strong {
     color: #0A65DC;
-    position: relative;
-    width: 6px;
-    height: 18px;
-    left: 130px;
-    top: -40px;
-    margin: 53px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 160px;
+    padding: 20px;
   }
 
   div.timeline-friends ul {
@@ -428,6 +426,29 @@ div.timeline-icon ul li {
     margin-left: -20px;
     padding: 20px;
     
+  }
+
+  div.events {
+    background: #242526;
+    width: 360px;
+    height: 360px;
+    margin-top: 15px;
+    margin-left: 320px;
+    border-radius: 10px;
+  }
+
+  div.events h3 {
+    color: #e3e5ea;
+    padding: 20px;
+    margin-left: 5px;
+  }
+
+  div.events strong {
+    color: #0A65DC;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 250px;
+    padding: 20px;
   }
 
 
