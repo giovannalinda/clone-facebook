@@ -421,11 +421,11 @@ div.timeline-icon ul li {
   }
 
   div.timeline-friends ul li p {
-    font-size: 12px;
+    font-size: bold;
     position: absolute;
     color: #e3e5ea;
     margin-top: -25px;
-    margin-left: -15px;
+    margin-left: -20px;
     padding: 20px;
     
   }
