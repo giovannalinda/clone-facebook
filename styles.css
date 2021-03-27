@@ -319,7 +319,7 @@ div.timeline-icon ul li {
     opacity: 0.3;
   }
 
-  div.timeline-photos {
+  div.side-photos {
     background: #242526;
     width: 360px;
     height: 415px;
@@ -328,13 +328,13 @@ div.timeline-icon ul li {
     border-radius: 10px;
   }
 
-  div.timeline-photos h3 {
+  div.side-photos h3 {
     color: #e3e5ea;
     padding: 20px;
     margin-left: 5px;
   }
 
-  div.timeline-photos strong {
+  div.side-photos strong {
     color: #0A65DC;
     position: relative;
     width: 6px;
@@ -344,14 +344,14 @@ div.timeline-icon ul li {
     margin: 53px;
   }
 
-  div.timeline-photos ul {
+  div.side-photos ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     padding: 0 15px 0 15px;
   }
 
-  div.timeline-photos ul li  {
+  div.side-photos ul li  {
     width: 100px;
     height: 100px;
     background: #95979A;
@@ -361,7 +361,7 @@ div.timeline-icon ul li {
    
   }
 
-  div.timeline-friends {
+  div.side-friends {
     background: #242526;
     width: 360px;
     height: 510px;
@@ -370,12 +370,12 @@ div.timeline-icon ul li {
     border-radius: 10px;
   }
 
-  div.timeline-friends h3 {
+  div.side-friends h3 {
     color: #e3e5ea;
     padding: 20px;
   }
 
-  div.timeline-friends p {
+  div.side-friends p {
     color: #95979A;
     margin-left: 10px;
     margin-top: -15px;
@@ -383,7 +383,7 @@ div.timeline-icon ul li {
     padding: 9px;
   }
 
-  div.timeline-friends strong {
+  div.side-friends strong {
     color: #0A65DC;
     position: absolute;
     margin-top: -60px;
@@ -391,14 +391,14 @@ div.timeline-icon ul li {
     padding: 20px;
   }
 
-  div.timeline-friends ul {
+  div.side-friends ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     padding: 0 15px 0 15px;
   }
 
-  div.timeline-friends ul li  {
+  div.side-friends ul li  {
     width: 100px;
     height: 100px;
     background: #95979A;
@@ -408,7 +408,7 @@ div.timeline-icon ul li {
    
   }
 
-  div.timeline-friends ul li img {
+  div.side-friends ul li img {
     width: 100px;
     height: 100px;
     background: #95979A;
@@ -418,7 +418,7 @@ div.timeline-icon ul li {
    
   }
 
-  div.timeline-friends ul li p {
+  div.side-friends ul li p {
     font-size: bold;
     position: absolute;
     color: #e3e5ea;
