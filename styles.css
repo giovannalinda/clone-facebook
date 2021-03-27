@@ -428,56 +428,6 @@ div.timeline-icon ul li {
     
   }
 
-  div.events {
-    background: #242526;
-    width: 360px;
-    height: 300px;
-    margin-top: 15px;
-    margin-left: 320px;
-    border-radius: 10px;
-  }
-
-  div.events h3 {
-    color: #e3e5ea;
-    padding: 20px;
-    margin-left: 5px;
-  }
-
-  div.events strong {
-    color: #0A65DC;
-    position: absolute;
-    margin-top: -60px;
-    margin-left: 250px;
-    padding: 20px;
-  }
-
-  div.eventlove {
-    background: #18191a;
-    width: 270px;
-    height: 200px;
-    border-radius: 2px;
-    margin: 0 5px 5px 45px;
-  }
-
-  div.eventlove p {
-    color: #e3e5ea;
-    font-size: bold;
-    margin-top: 10px;
-    margin-left: 23px;
-  }
-
-  div.eventlove img {
-    width: 60px;
-    height: 60px;
-    margin-top: 50px;
-    margin-left: 105px;
-  }
-
-  div.eventlove span {
-    color: #0A65DC;
-    font-size: bold;
-    margin-left: 100px;
-  }
 
 
 
