@@ -115,11 +115,13 @@ div.images-nav ul li img {
 
 }
 
-div.banner img {
+div.banner  {
+  background: #000;
+  position: relative;
   display: flex;
   justify-content: center;
   height: 400px;
-  width: 62%;
+  width: 950px;
   margin-left: 290px;
   margin-top: 2px;
   border-radius: 6px;
@@ -138,11 +140,11 @@ div.profile .avatar {
 }
 
 div.profile h1 {
+  position: absolute;
   display: flex;
-  justify-content: center;
   color: #e3e5ea;
   margin-top: 40px;
-
+  margin-left: 660px;
 }
 
 div.profile p {
