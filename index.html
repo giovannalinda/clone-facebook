@@ -9,40 +9,66 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+    <header class="header-container">
+      <div class="header-content">
+        <div class="header-logo-container">
+          <img src="./images/facebook.png" alt="Logo">
 
-    <header id="main-header">
-      <div class="content">
-        <div class="logo"><img src="./images/facebook.png" alt="Logo"></div>
+          <div class="search-input-container">
+            <input type="text" placeholder="Pesquisar no Facebook">
+            <button type="button">
+              <img src="./images/search.svg" alt="Input Search" width="24px" height="24px">
+            </button>
+          </div>
+        </div>
 
         <nav>
-          <ul>
-            <li><img src="./images/home.svg" alt="Home"></li>
-            <li><img src="./images/watch.svg" alt="Watch"></li>
-            <li><img src="./images/group.svg" alt="Group"></li>
-            <li><img src="./images/icongame.svg" alt="Game"></li>
+          <ul class="header-navigation">
+            <li class="header-navigation-item">
+              <img src="./images/home.svg" alt="Home">
+            </li>
+            <li class="header-navigation-item">
+              <img src="./images/watch.svg" alt="Watch">
+            </li>
+            <li class="header-navigation-item">
+              <img src="./images/group.svg" alt="Group">
+            </li>
+            <li class="header-navigation-item">
+              <img src="./images/icongame.svg" alt="Game">
+            </li>
           </ul>
         </nav>
-      </div>
-      
-      <div class="side-nav">
-        <input type="text" placeholder="Pesquisar no Facebook">
-        <img src="./images/avatar.png" alt="Perfil">
-        <p>Giovanna</p>
-      </div>
 
-        <div class="images-nav">
-        <ul>
-          <li><img src="./images/plus.svg" alt="Plus"></li>
-          <li><img src="./images/messenger.svg" alt="Messenger"></li>
-          <li><img src="./images/notification.svg" alt="Notification"></li>
-          <li><img src="./images/arrow.svg" alt="Arrow"></li>
-        </ul>
-      </div>
+        <div class="header-profile-container">
+          <div class="header-avatar-container">
+            <img src="./images/avatar.png" alt="Perfil">
+            <span>Giovanna</span>
+          </div>
     
+          <nav>
+            <ul class="header-navigation">
+              <li class="header-navigation-profile-item">
+                <img src="./images/plus.svg" alt="Plus">
+              </li>
+              <li class="header-navigation-profile-item">
+                <img src="./images/messenger.svg" alt="Messenger">
+              </li>
+              <li class="header-navigation-profile-item">
+                <img src="./images/notification.svg" alt="Notification">
+              </li>
+              <li class="header-navigation-profile-item">
+                <img src="./images/arrow.svg" alt="Arrow">
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
     </header>
-      <div class="profile-content">
-      <div class="banner">
-    </div>
+
+    <!-- 
+<div class="profile-content"></div>
+    <div class="banner"></div>
 
     <div class="profile">
       <img class="avatar" src="./images/avatar.png" alt="Giovanna Linda">
@@ -58,20 +84,16 @@
           <li class="active">
             <strong>Publicações</strong>
           </li>
-
           <li>
             <strong>Sobre</strong>
           </li>
-
           <li>
             <strong>Amigos</strong>
             <span>1726</span>
           </li>
-
           <li>
             <strong>Fotos</strong>
           </li>
-          
           <li>
             <strong>Mais</strong>
             <img src="./images/arrow.svg" alt="Arrow">
@@ -79,7 +101,6 @@
         </ul>
       </div>
     </div>
-  </div>
 
     <div class="side">
       <h2>Apresentação</h2>
@@ -107,39 +128,37 @@
       </ul>
     </div>
 
-      <div class="timeline">
-        <img class="perfil" src="./images/avatar.png" alt="Perfil">
-        <input type="text" placeholder="No que você está pensando?">
-        <div class="division-status"></div>
-      </div>
+    <div class="timeline">
+      <img class="perfil" src="./images/avatar.png" alt="Perfil">
+      <input type="text" placeholder="No que você está pensando?">
+      <div class="division-status"></div>
+    </div>
 
-      
+    <div class="timeline-icon">
+      <ul>
+        <li> <img src="./images/video.svg" alt="Video">Live</li> 
+        <li> <img src="./images/photo.svg" alt="Photo">Foto/Vídeo</li> 
+        <li> <img src="./images/event.svg" alt="Event">Acontecimento</li> 
+      </ul>
+    </div>
 
-      <div class="timeline-icon">
-        <ul>
-         <li> <img src="./images/video.svg" alt="Video">Live</li> 
-         <li> <img src="./images/photo.svg" alt="Photo">Foto/Vídeo</li> 
-         <li> <img src="./images/event.svg" alt="Event">Acontecimento</li> 
-        </ul>
-     </div>
+    <div class="side-photos">
+      <h3>Fotos</h3>
+      <strong>Ver todas as fotos</strong>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
 
-     <div class="side-photos">
-       <h3>Fotos</h3>
-       <strong>Ver todas as fotos</strong>
-       <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-       </ul>
-     </div>
-
-     <div class="side-friends">
+    <div class="side-friends">
       <h3>Amigos</h3>
       <p>1.726 amigos</p>
       <strong>Ver todos os amigos</strong>
@@ -148,27 +167,22 @@
           <img src="./images/stanlee.png" alt="Stan Lee">
           <p>Stan Lee</p>
         </li>
-
         <li>
           <img src="./images/the rock.png" alt="The Rock">
           <p>The Rock</p>
         </li>
-
         <li>
           <img src="./images/barackobama.png" alt="Barack Obama">
           <p>Barack Obama</p>
         </li>
-        
         <li>
           <img src="./images/bill gates.png" alt="Bill Gates">
           <p>Bill Gates</p>
         </li>
-
         <li>
           <img src="./images/adamsandler.png" alt="Adam Sandler">
           <p>Adam Sandler</p>
         </li>
-
         <li>
           <img src="./images/waltdisney.png" alt="Walt Disney">
           <p>Walt Disney</p>
@@ -177,20 +191,18 @@
           <img src="./images/jeffbezos.png" alt="Jeff Bezos">
           <p>Jeff Bezos</p>
         </li>
-
         <li>
           <img src="./images/elonmusk.png" alt="Elon Musk">
           <p>Elon Musk</p>
         </li>
-
         <li>
           <img src="./images/steve jobs.jpg" alt="Steve Jobs">
          <p>Steve Jobs</p>
         </li>
       </ul>
     </div>
+    -->
 
     
   </body>
-
 </html>
